@@ -1,0 +1,51 @@
+# Privacy Policy — Minimal Launcher Focus
+
+**Last updated:** 2025
+
+Minimal Launcher Focus ("the app") is a home screen launcher with optional focus-guard and productivity features. This policy describes how the app handles data.
+
+## Data we use (on your device)
+
+The app stores settings and content **only on your device**, including:
+
+- Launcher preferences (theme, font size, home layout)
+- Notes, habits, checklist, and task data
+- Focus guard (delay/time limit) app list and settings
+- Pinned and favourite apps
+
+This data is **not** sent to our servers. We do not operate any backend that receives your data.
+
+## Permissions and how they are used
+
+The app may request these permissions. You can deny any of them; some features will then be unavailable.
+
+| Permission | Purpose |
+|------------|--------|
+| **Contacts (READ_CONTACTS)** | Used only for the command box "call by name" feature (e.g. "call John") so the app can look up a contact’s number. Contact data is used only on device and is **not** sent to us or any third party. |
+| **Location (fine/coarse)** | Used for weather and AQI on the home screen and for location-based news. Coordinates are sent only to the weather/AQI provider (Open-Meteo) to fetch weather; we do not store or sell location. |
+| **Calendar (READ_CALENDAR)** | Used to show today’s events on the home screen. Calendar data is read only on device and is **not** sent to us. |
+| **Phone (CALL_PHONE)** | Used to place calls when you use the command box or dialer shortcut. |
+| **Notifications** | Optional: to show notification badges and to support "mute all except calls and messages." Notification content is processed on device only. |
+| **Usage access (PACKAGE_USAGE_STATS)** | Optional: for Focus guard time limits. Used only on device to measure app usage; **not** sent to us. |
+| **Other** | Internet: for news feeds and weather. Storage/install: for app list and optional uninstall. |
+
+## Third-party services
+
+- **Weather / AQI:** If you use the weather feature, approximate location (latitude/longitude) is sent to [Open-Meteo](https://open-meteo.com/) to retrieve weather and air quality. Their policy applies to that data.
+- **News:** The app fetches public RSS feeds (e.g. BBC, The Hindu, NPR) by country. No personal data is sent to these sources; the request is for public content only.
+
+We do not use analytics, advertising, or tracking SDKs. We do not sell or share your personal data with third parties for marketing.
+
+## Your choices
+
+- You can revoke any permission in system Settings → Apps → Minimal Launcher Focus → Permissions.
+- Disabling "Use device location" in the app’s settings stops location from being used for weather/news.
+- Uninstalling the app removes all app data from the device.
+
+## Changes
+
+We may update this policy occasionally. The "Last updated" date at the top will be revised. Continued use of the app after changes means you accept the updated policy.
+
+## Contact
+
+For privacy-related questions about Minimal Launcher Focus, open an issue or contact the developer via the app’s Google Play listing or project repository.
